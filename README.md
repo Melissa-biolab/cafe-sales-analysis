@@ -7,7 +7,7 @@
    ## Datos
    Archivo CSV de ventas de una cafetería, provisto en el diplomado (`data/cafeteria.csv`).
    Columnas utilizadas: `fecha`, `categoria`, `cantidad`, `precio_unitario`.
-   El periodo cubierto es [fecha inicial] a [fecha final], con [número] registros.
+   El periodo cubierto es del 1 al 6 de marzo de 2026, con 30 registros.
 
    ## Métodos
    - Carga y preparación de los datos con Pandas (conversión de fechas).
@@ -21,9 +21,9 @@
    - El día de mayor venta fue el **5 de marzo de 2026**.
    - Las bebidas se mantienen como la categoría más vendida todos los días; en snacks hay una ligera tendencia al aumento hacia los últimos días y en comida la demanda fluctúa.
 
-   ![Ventas por categoría](images/ventas_por_categoria.png)
+   ![Ventas por categoría](Images/ventas_por_categoria.png)
 
-   ![Ventas por día](images/ventas_por_dia.png)
+   ![Ventas por día](Images/ventas_por_dia.png)
 
    ## Cómo ejecutarlo
    1. Clona o descarga este repositorio.
